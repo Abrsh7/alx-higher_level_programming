@@ -11,6 +11,7 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """Validate a parameter as an integer.
+
         Args:
             name (str): The name of the parameter.
             value (int): The parameter to validate.
@@ -29,6 +30,7 @@ class Rectangle(BaseGeometry):
 
     def __init__(self, width, height):
         """Intialize a new Rectangle.
+
         Args:
             width (int): The width of the new Rectangle.
             height (int): The height of the new Rectangle.
